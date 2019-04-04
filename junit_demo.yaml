@@ -1,0 +1,9 @@
+execution:
+- executor: junit
+  iterations: 1
+  concurrency: 1
+  scenario: JUnitDemo
+
+scenarios:
+  JUnitDemo:
+    script: ./src/basicdemos/JUnitDemo.java
